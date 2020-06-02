@@ -65,3 +65,9 @@ C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Server\bin\Debug\ne
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Server\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Server\bin\Debug\netcoreapp3.1\BlazorTest.Core.pdb
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Server\obj\Debug\netcoreapp3.1\Razor\Pages\TestGridView\GridView.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Server\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\EventHandling\Onclick.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Server\obj\Debug\netcoreapp3.1\Razor\Components\EventHandling\Onclick.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Server\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EventHandling\OnclickEvent.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Server\obj\Debug\netcoreapp3.1\Razor\Pages\EventHandling\OnclickEvent.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Server\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\EventHandling\CheckBox.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Server\obj\Debug\netcoreapp3.1\Razor\Components\EventHandling\CheckBox.razor.g.cs

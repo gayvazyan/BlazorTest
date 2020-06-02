@@ -1,0 +1,21 @@
+﻿<input type="checkbox" class="form-check-input" @onchange="CheckChanged" />
+<br />
+<p>@Text</p>
+@code {
+    public string Text { get; set; } = "Հանկարց պտիչկեն չդնես !!!!!";
+    public bool Show { get; set; } = false;
+    private void CheckChanged()
+    {
+        if (Show)
+        {
+            Text = "Էլի հանեցիր պտիչկեն վախկոտ )))))";
+            Show = false;
+        }
+        else
+        {
+            Text = "Էտ խի պտիչկեն դրեցիր սրիկա";
+            Show = true;
+        }
+
+    }
+}
