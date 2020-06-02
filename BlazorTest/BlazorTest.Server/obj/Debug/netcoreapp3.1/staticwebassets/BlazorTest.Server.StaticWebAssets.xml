@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/BlazorTest.Core" Path="C:\Users\gareg\source\repos\BlazorTest\BlazorTest\BlazorTest.Core\wwwroot\" />
+  <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\gareg\.nuget\packages\radzen.blazor\2.9.9\build\..\staticwebassets\" />
+</StaticWebAssets>
