@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gareg\\source\\repos\\BlazorTest\\BlazorTest\\Test\\Test.csproj": {}
+    "C:\\Users\\gareg\\Source\\Repos\\BlazorTest\\BlazorTest\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gareg\\source\\repos\\BlazorTest\\BlazorTest\\Test\\Test.csproj": {
+    "C:\\Users\\gareg\\Source\\Repos\\BlazorTest\\BlazorTest\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gareg\\source\\repos\\BlazorTest\\BlazorTest\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\gareg\\Source\\Repos\\BlazorTest\\BlazorTest\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\gareg\\source\\repos\\BlazorTest\\BlazorTest\\Test\\Test.csproj",
+        "projectPath": "C:\\Users\\gareg\\Source\\Repos\\BlazorTest\\BlazorTest\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\gareg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gareg\\source\\repos\\BlazorTest\\BlazorTest\\Test\\obj\\",
+        "outputPath": "C:\\Users\\gareg\\Source\\Repos\\BlazorTest\\BlazorTest\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xlcTaTLuapP4MmrXKG4ZhOba4XE8yuSr568P9dfbDdvNt5QbtGDn1IXHSnrVgLcozLL63Jd9FijmVCQYFycQAQ==",
+  "dgSpecHash": "TLBQSUDUeILaE1IxRsRoz9VcPOTsIIdXZ7Qteh+dRX5+Mq58XSCtQ4jdOozxaaVAArNiXE59mlic735xbnp6zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gareg\\source\\repos\\BlazorTest\\BlazorTest\\Test\\Test.csproj",
+  "projectFilePath": "C:\\Users\\gareg\\Source\\Repos\\BlazorTest\\BlazorTest\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gareg\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.3\\microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
     "C:\\Users\\gareg\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.3\\microsoft.aspnetcore.components.3.1.3.nupkg.sha512",

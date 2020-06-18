@@ -349,6 +349,10 @@ C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Pages\Grids.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Components\SurveyPrompt.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Components\SurveyPrompt.razor.g.cs
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\SrEuGFCnFG7edrNQlGN50-tdvu3wl7_SKd40zvxJUHo=.hash
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\D0NhfIGQG1PWM2nsLQfpT6kGO-_Kc7Nf3BXBTAmA0DM=.hash
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\29tkyKqS3LQhHjqjRdy6zavo0cfUjCpZV1e_TbKU6WI=.hash
+C:\Users\gareg\Source\Repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Components\RepeaterComponent.razor.g.cs
+C:\Users\gareg\Source\Repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Pages\RenderFragment.razor.g.cs
+C:\Users\gareg\Source\Repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Components\RepeaterComponent.razor.g.cs
+C:\Users\gareg\Source\Repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Pages\RenderFragment.razor.g.cs
+C:\Users\gareg\Source\Repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\7hIMlvKrsuvl8hdqt2FQxFNy2vkdRxDJmSYhGyd7Y_A=.hash
+C:\Users\gareg\Source\Repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\_eaUFnkFv5BYMzTKRIObLKl-_JXpD0JcdJLEjqMhbUU=.hash
+C:\Users\gareg\Source\Repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\U6BVVefSgLBbRXCCuB3ytLmOHVCzt5_EuiHQssmzIaE=.hash
