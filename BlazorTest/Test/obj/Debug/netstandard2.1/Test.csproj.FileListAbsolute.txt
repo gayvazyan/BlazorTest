@@ -3,7 +3,6 @@ C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\Test.dll
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\Test.pdb
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Test.dll
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Net.Http.Json.dll
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Buffers.dll
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\mscorlib.dll
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Threading.Tasks.Extensions.dll
@@ -61,7 +60,6 @@ C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\blazor.webassembly.js
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\blazor.boot.json
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Test.dll.gz
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Buffers.dll.gz
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\mscorlib.dll.gz
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Threading.Tasks.Extensions.dll.gz
@@ -156,12 +154,9 @@ C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Test.RazorComponent.input.cache
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Components\GridAutoComponent.razor.g.cs
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\_Imports.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Test.dll
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Test.TagHelpers.input.cache
@@ -169,17 +164,13 @@ C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Test.RazorCoreGenerate.cache
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\App.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Components\GridAutoComponent.razor.g.cs
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\_Imports.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Test.RazorTargetAssemblyInfo.cache
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Test.csproj.CopyComplete
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash
@@ -236,7 +227,6 @@ C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\oU0moF6IIkna1pMoSD6Ze63s6aHfjCtUflz7xDmENPg=.hash
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\blazor\blazor.boot.json
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\_bin\Test.dll.gz
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.gz
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\_bin\mscorlib.dll.gz
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Threading.Tasks.Extensions.dll.gz
@@ -294,7 +284,6 @@ C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\blazor.webassembly.js.gz
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\blazor.boot.json.gz
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\_bin\Test.dll.br
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.br
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.br
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\_bin\mscorlib.dll.br
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Threading.Tasks.Extensions.dll.br
@@ -355,6 +344,11 @@ C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\staticwebassets\Test.StaticWebAssets.xml
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Test.dll
 C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Test.pdb
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\AH5ddOFFPFJVkqyVCXVgYy-W81lAOAXYcrF-14GRMPM=.hash
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\m9HUxGNfp_5KxmOlTDUVG6JC3XHN9KwcWpK5_WXZvHw=.hash
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\5VwyvosvpfolhzAJV-SSqxYzrFeXP5lirFZzH4hAXrU=.hash
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Test.csprojAssemblyReference.cache
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Grids.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Pages\Grids.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Components\SurveyPrompt.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Components\SurveyPrompt.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\SrEuGFCnFG7edrNQlGN50-tdvu3wl7_SKd40zvxJUHo=.hash
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\D0NhfIGQG1PWM2nsLQfpT6kGO-_Kc7Nf3BXBTAmA0DM=.hash
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\29tkyKqS3LQhHjqjRdy6zavo0cfUjCpZV1e_TbKU6WI=.hash

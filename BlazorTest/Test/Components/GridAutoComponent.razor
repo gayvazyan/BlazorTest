@@ -2,12 +2,13 @@
 
 @if (memberInfo != null && memberInfo.Length > 0)
 {
-    <table class="table">
+    <table class="@($"table {this.CssClass}")">
         <thead>
             <tr>
                 @foreach (var member in memberInfo)
                 {
-                    if (member.MemberType == MemberTypes.Property)
+                    if (member.MemberType == MemberTypes.Property &&
+                       !ColumnsToExclude.Contains(member.Name,StringComparison.OrdinalIgnoreCase))
                     {
                         <th>
                             @member.Name
@@ -16,6 +17,23 @@
                 }
             </tr>
         </thead>
+        <tbody>
+            @foreach (var item in Items)
+            {
+            <tr>
+                @foreach (var member in memberInfo)
+                {
+                    if (member.MemberType == MemberTypes.Property &&
+                       !ColumnsToExclude.Contains(member.Name, StringComparison.OrdinalIgnoreCase))
+                    {
+                        <td>
+                            @item.GetType().GetProperty(member.Name).GetValue(item)
+                        </td>
+                    }
+                }
+            </tr>
+            }
+        </tbody>
     </table>
 }
 
@@ -30,12 +48,20 @@
 
         if (Items != null && Items.Count() > 0)
         {
-            Type typeofItem = this.Items.GetType();
+            Type typeofItem = this.Items[0].GetType();
             memberInfo = typeofItem.GetMembers();
         }
     }
 
     [Parameter]
     public List<TItem> Items { get; set; }
+
+    [Parameter]
+    public string ColumnsToExclude { get; set; }
+
+    [Parameter]
+    public string CssClass { get; set; }
+
+
 
 }
