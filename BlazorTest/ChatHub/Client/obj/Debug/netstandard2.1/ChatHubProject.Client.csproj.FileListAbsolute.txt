@@ -1,0 +1,13 @@
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\ChatHubProject.Client.csprojAssemblyReference.cache
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\ChatHubProject.Client.AssemblyInfoInputs.cache
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\ChatHubProject.Client.AssemblyInfo.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\ChatHubProject.Client.csproj.CoreCompileInputs.cache
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\ChatHubProject.Client.RazorComponent.input.cache
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Client\obj\Debug\netstandard2.1\RazorDeclaration\_Imports.razor.g.cs

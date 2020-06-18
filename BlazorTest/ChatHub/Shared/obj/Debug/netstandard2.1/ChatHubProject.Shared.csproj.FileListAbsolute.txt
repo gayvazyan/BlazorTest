@@ -1,0 +1,9 @@
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Shared\bin\Debug\netstandard2.1\ChatHubProject.Shared.deps.json
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Shared\bin\Debug\netstandard2.1\ChatHubProject.Shared.dll
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Shared\bin\Debug\netstandard2.1\ChatHubProject.Shared.pdb
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Shared\obj\Debug\netstandard2.1\ChatHubProject.Shared.csprojAssemblyReference.cache
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Shared\obj\Debug\netstandard2.1\ChatHubProject.Shared.AssemblyInfoInputs.cache
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Shared\obj\Debug\netstandard2.1\ChatHubProject.Shared.AssemblyInfo.cs
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Shared\obj\Debug\netstandard2.1\ChatHubProject.Shared.csproj.CoreCompileInputs.cache
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Shared\obj\Debug\netstandard2.1\ChatHubProject.Shared.dll
+C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Shared\obj\Debug\netstandard2.1\ChatHubProject.Shared.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xLBaPilSlbo6PsjXJWlx3QmfVFFMyb4cg1pphj3OanZZTwwydN4eoQkZrNVtqJf2bGkA+9S7nxYpCzT8CMhaog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gareg\\source\\repos\\BlazorTest\\BlazorTest\\ChatHub\\Server\\ChatHubProject.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gareg\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\3.2.0\\microsoft.aspnetcore.components.webassembly.server.3.2.0.nupkg.sha512",
+    "C:\\Users\\gareg\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
