@@ -1,7 +1,0 @@
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Server\obj\Debug\netcoreapp3.1\ChatHubProject.Server.csprojAssemblyReference.cache
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Server\obj\Debug\netcoreapp3.1\ChatHubProject.Server.AssemblyInfoInputs.cache
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Server\obj\Debug\netcoreapp3.1\ChatHubProject.Server.AssemblyInfo.cs
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Server\obj\Debug\netcoreapp3.1\ChatHubProject.Server.csproj.CoreCompileInputs.cache
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Server\obj\Debug\netcoreapp3.1\ChatHubProject.Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Server\obj\Debug\netcoreapp3.1\ChatHubProject.Server.RazorAssemblyInfo.cache
-C:\Users\gareg\source\repos\BlazorTest\BlazorTest\ChatHub\Server\obj\Debug\netcoreapp3.1\ChatHubProject.Server.RazorAssemblyInfo.cs

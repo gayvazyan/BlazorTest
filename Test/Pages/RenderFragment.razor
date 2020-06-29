@@ -1,0 +1,74 @@
+﻿@page "/RenderFragment"
+
+<h1>RenderFragment</h1>
+
+<RepeaterComponent @ref="repeater" Items="customers">
+    <Header>
+        <h2> Customers Header</h2>
+    </Header>
+    <Row Context="customer">
+        <div><b>@customer.Id</b></div>
+        <button class="btn" @onclick="@(() =>
+                                        {
+                                            EditCostumer(customer);
+                                        })">Edit</button>
+        <div class="ml-5">@customer.Name</div>
+        <div class="ml-5">@customer.SureName</div>
+        <div class="ml-5">@customer.Age</div>
+        <br />
+    </Row>
+    <Footer>
+        <h2> Customers Footer</h2> 
+    </Footer>
+    <EditTemplate>
+        <div>
+            <text> Customer Name:</text><input class="form-control" @bind-value="currentCustomer.Id" />
+        </div>
+        <div>
+            <text> Customer Name:</text><input class="form-control" @bind-value="currentCustomer.Name" />
+        </div>
+        <div>
+            <text> Customer SureName:</text><input class="form-control" @bind-value="currentCustomer.SureName" />
+        </div>
+        <div>
+            <text> Customer Age:</text><input class="form-control" @bind-value="currentCustomer.Age" />
+        </div>
+
+    </EditTemplate>
+</RepeaterComponent>
+
+
+
+@code {
+    private RepeaterComponent<Customer> repeater;
+
+    private List<Customer> customers;
+    private Customer currentCustomer;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        customers = new List<Customer>();
+
+        customers.AddRange(new Customer[3]
+    {
+            new Customer{ Id=1, Name="Պողոս", SureName="Պողոսյան", Age=20},
+            new Customer{ Id=2, Name="Պետրոս", SureName="Պետրոսյան", Age=23},
+            new Customer{ Id=3, Name="Մարտիրոս", SureName="Մարտիրոսյան", Age=25}
+                    });
+    }
+    private void EditCostumer(Customer customer)
+    {
+        repeater.ItemToEdit = customer;
+    }
+
+    public class Customer
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string SureName { get; set; }
+        public int Age { get; set; }
+    }
+
+}
