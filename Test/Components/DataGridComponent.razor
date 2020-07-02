@@ -43,7 +43,8 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in DataItems)
+        @foreach (var item in DataItems.Skip(Paging.NumOfItemsToSkip(CurretPageNumber))
+            .Take(Paging.NumOfItemsToTake(DataItems.Count)))
         {
         <tr>
             @foreach (var column in Columns)
@@ -97,10 +98,36 @@
     </tbody>
 </table>
 
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+       
+    </div>
+    <div class="col-md-4">
+        @if (Paging != null && Paging.Enabled)
+        {
+            @if (Paging.CustomPager)
+            {
+                @CustomPager
+            }
+            else
+            {
+                <button class="btn btn-outline-success" @onclick="GoToPrevPage">Նախորդ</button>
+                <span>&nbsp;&nbsp; Էջ @CurretPageNumber-ը  @Paging.MaxPageNumber(DataItems.Count) էջից&nbsp;&nbsp;</span>
+                <button class="btn btn-outline-success" @onclick="GoToNextPage"> Հաջորդ</button>
+            }
+        }
+    </div>
+</div>
+        
+
 
 
 
 @code {
+
+    [Parameter]
+    public int CurretPageNumber { get; set; } = 1;
 
     [Parameter]
     public List<TItem> DataItems { get; set; }
@@ -108,7 +135,20 @@
     [Parameter]
     public List<ColumnDefinition> Columns { get; set; }
 
+    [Parameter]
+    public PagingConfig Paging { get; set; }
 
+    [Parameter]
+    public RenderFragment CustomPager { get; set; }
 
+    public void GoToPrevPage()
+    {
+        CurretPageNumber = Paging.PrevPageNumber(CurretPageNumber);
+    }
 
+    public void GoToNextPage()
+    {
+        CurretPageNumber = Paging.NextPageNumber(CurretPageNumber, DataItems.Count);
+    }
+    public int MaxPageNumber { get => Paging.MaxPageNumber(DataItems.Count); }
 }

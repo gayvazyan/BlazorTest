@@ -713,6 +713,6 @@ C:\Users\gareg\source\repos\BlazorTest\Test\obj\Debug\netstandard2.1\Test.dll
 C:\Users\gareg\source\repos\BlazorTest\Test\obj\Debug\netstandard2.1\Test.pdb
 C:\Users\gareg\source\repos\BlazorTest\Test\obj\Debug\netstandard2.1\RazorDeclaration\Components\DataGridComponent.razor.g.cs
 C:\Users\gareg\source\repos\BlazorTest\Test\obj\Debug\netstandard2.1\Razor\Components\DataGridComponent.razor.g.cs
-C:\Users\gareg\source\repos\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\psDXoi7ofihfbHeNHPMphLg4_oWy51v4RuGFfunbX0Q=.hash
-C:\Users\gareg\source\repos\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\5yschPmfvcTKNjIL-AzphgMISDFY8eVjl0s8DoTwdfU=.hash
-C:\Users\gareg\source\repos\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\a5raMW7Qnp-LDb0qTqoaRW_3O_pUllI6hnYfl9AvT_Y=.hash
+C:\Users\gareg\source\repos\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\N0CK5LoBEvtnsRz_Aqw1Wt6gZESUvkS0MZ936-YBbXs=.hash
+C:\Users\gareg\source\repos\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\vA9D8SdtfWDdPk82JiXA2M0hGAmjF3Grw_n1M9RZ1SQ=.hash
+C:\Users\gareg\source\repos\BlazorTest\Test\obj\Debug\netstandard2.1\integrity\lO56vv_5obdRrpXDkkIEk9vdE0oH5i4Eg4gt8F2Gp5Y=.hash

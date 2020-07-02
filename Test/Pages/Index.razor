@@ -4,20 +4,36 @@
 
 Welcome to your new app.
 
-<br /> <br />
-<DataGridComponent TItem="Employee"
+<br />
+<br />
+<DataGridComponent @ref="grid"
+                   TItem="Employee"
                    DataItems="listEmployees"
-                   Columns="columnsDefinition">
+                   Columns="columnsDefinition"
+                   Paging="@(new PagingConfig {
+                                 Enabled=true,
+                                 CustomPager=true,
+                                 PageSize=2
+                             })">
+
+    <CustomPager>
+        <button class="btn btn-primary" @onclick="PrevPage">Նախորդ</button>
+        <span style="font-size:12px;color:gray">
+            &nbsp;&nbsp; Էջ
+            <input type="number" max="@grid.MaxPageNumber" min="1"
+                   @bind-value="@grid.CurretPageNumber" />-ը
+            @grid.MaxPageNumber էջից&nbsp;&nbsp;
+        </span>
+        <button class="btn btn-primary" @onclick="NextPage">Հաջորդ</button>
+    </CustomPager>
+
 </DataGridComponent>
 
 @code
 {
+    private DataGridComponent<Employee> grid;
     private List<Employee> listEmployees;
     private List<ColumnDefinition> columnsDefinition;
-
-
-
-
 
     protected override void OnInitialized()
     {
@@ -66,7 +82,7 @@ Welcome to your new app.
                         EmploymentDate=DateTime.Now,
                         Salary=8000000
                     },
-                }
+                        }
 
                 );
         }
@@ -82,9 +98,8 @@ Welcome to your new app.
                     new ColumnDefinition { DataField="EmploymentDate",Caption="EmploymentDate", Format="dd/MM/yyyy", DataType=DataType.Date },
                     new ColumnDefinition { DataField="Salary",Caption="Annual Salary", DataType=DataType.Currency, Alignment=Alignment.Right, Format="c"}
 
-                });
+                        });
         }
-
     }
 
     public class Employee
@@ -96,5 +111,13 @@ Welcome to your new app.
         public Decimal Salary { get; set; }
     }
 
+    private void PrevPage()
+    {
+        grid.GoToPrevPage();
+    }
+    private void NextPage()
+    {
+        grid.GoToNextPage();
+    }
 }
 
