@@ -107,7 +107,6 @@ using Test.Configuration;
 #line hidden
 #nullable disable
             );
-            __builder.AddMarkupContent(1, "\r\n\r\n");
 #nullable restore
 #line 5 "C:\Users\gareg\source\repos\BlazorTest\Test\Components\RepeaterComponent.razor"
  foreach (var item in Items)
@@ -117,7 +116,7 @@ using Test.Configuration;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(2, 
+            __builder.AddContent(1, 
 #nullable restore
 #line 7 "C:\Users\gareg\source\repos\BlazorTest\Test\Components\RepeaterComponent.razor"
      Row(item)
@@ -134,8 +133,7 @@ using Test.Configuration;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddMarkupContent(3, "\r\n");
-            __builder.AddContent(4, 
+            __builder.AddContent(2, 
 #nullable restore
 #line 10 "C:\Users\gareg\source\repos\BlazorTest\Test\Components\RepeaterComponent.razor"
  Footer
@@ -144,7 +142,7 @@ using Test.Configuration;
 #line hidden
 #nullable disable
             );
-            __builder.AddMarkupContent(5, "\r\n\r\n<br>\r\n\r\n");
+            __builder.AddMarkupContent(3, "\r\n\r\n<br>");
 #nullable restore
 #line 14 "C:\Users\gareg\source\repos\BlazorTest\Test\Components\RepeaterComponent.razor"
  if (ItemToEdit != null)
@@ -154,7 +152,7 @@ using Test.Configuration;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddContent(6, 
+            __builder.AddContent(4, 
 #nullable restore
 #line 16 "C:\Users\gareg\source\repos\BlazorTest\Test\Components\RepeaterComponent.razor"
      EditTemplate(ItemToEdit)

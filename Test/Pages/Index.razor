@@ -2,122 +2,43 @@
 
 <h1>Hello, world!</h1>
 
-Welcome to your new app.
 
-<br />
-<br />
-<DataGridComponent @ref="grid"
-                   TItem="Employee"
-                   DataItems="listEmployees"
-                   Columns="columnsDefinition"
-                   Paging="@(new PagingConfig {
-                                 Enabled=true,
-                                 CustomPager=true,
-                                 PageSize=2
-                             })">
+<ul class="accordions" style="font-size: 16px;">
+    <li class="accordion">
+        <div class="accordion-header">
+            <div class="accordion-icon">&nbsp;</div>
+            <h6>Sovsoarak55555555555555</h6>
+        </div>
+        <div class="accordion-content" style="display: none;">
+            <ul>
+                <li>444444444444444444</li>
+                <li>44444444444444444444</li>
+                <li>44444444444444444444</li>
+            </ul>
+        </div>
+    </li>
 
-    <CustomPager>
-        <button class="btn btn-primary" @onclick="PrevPage">Նախորդ</button>
-        <span style="font-size:12px;color:gray">
-            &nbsp;&nbsp; Էջ
-            <input type="number" max="@grid.MaxPageNumber" min="1"
-                   @bind-value="@grid.CurretPageNumber" />-ը
-            @grid.MaxPageNumber էջից&nbsp;&nbsp;
-        </span>
-        <button class="btn btn-primary" @onclick="NextPage">Հաջորդ</button>
-    </CustomPager>
 
-</DataGridComponent>
+    <li class="accordion">
+        <div class="accordion-header">
+            <div class="accordion-icon">&nbsp;</div>
+            <h6>Sosvaoarak77777777777777777</h6>
+        </div>
+        <div class="accordion-content" style="display: none;">
+            <ul>
+                <li>888888888888888888</li>
+                <li>88888888888888888888</li>
+                <li>8888888888888888888</li>
+            </ul>
+        </div>
+    </li>
+
+</ul>
+
+
 
 @code
 {
-    private DataGridComponent<Employee> grid;
-    private List<Employee> listEmployees;
-    private List<ColumnDefinition> columnsDefinition;
 
-    protected override void OnInitialized()
-    {
-        base.OnInitialized();
-        Initialize();
-    }
-
-    private void Initialize()
-    {
-        if (listEmployees == null)
-        {
-            listEmployees = new List<Employee>();
-
-            listEmployees.AddRange(
-                new Employee[]
-                {
-                    new Employee
-                    {
-                        Name="Martiros",
-                        Title="Developer",
-                        Department="Software Dev",
-                        EmploymentDate=DateTime.Now,
-                        Salary=1000000
-                    },
-                     new Employee
-                    {
-                        Name="Kirakos",
-                        Title="DBA",
-                        Department="IT Dev",
-                        EmploymentDate=DateTime.Now,
-                        Salary=2000000
-                    },
-                      new Employee
-                    {
-                        Name="Poxos",
-                        Title="Developer",
-                        Department="Software Dev",
-                        EmploymentDate=DateTime.Now,
-                        Salary=3000000
-                    },
-                       new Employee
-                    {
-                        Name="Petros",
-                        Title="QA",
-                        Department="QA Dev",
-                        EmploymentDate=DateTime.Now,
-                        Salary=8000000
-                    },
-                        }
-
-                );
-        }
-
-        if (columnsDefinition == null)
-        {
-            columnsDefinition = new List<ColumnDefinition>();
-            columnsDefinition.AddRange(
-                new ColumnDefinition[]{
-                    new ColumnDefinition { DataField="Name",Caption="Name"},
-                    new ColumnDefinition { DataField="Title",Caption="Title"},
-                    new ColumnDefinition { DataField="Department",Caption="Department"},
-                    new ColumnDefinition { DataField="EmploymentDate",Caption="EmploymentDate", Format="dd/MM/yyyy", DataType=DataType.Date },
-                    new ColumnDefinition { DataField="Salary",Caption="Annual Salary", DataType=DataType.Currency, Alignment=Alignment.Right, Format="c"}
-
-                        });
-        }
-    }
-
-    public class Employee
-    {
-        public string Name { get; set; }
-        public string Title { get; set; }
-        public string Department { get; set; }
-        public DateTime EmploymentDate { get; set; }
-        public Decimal Salary { get; set; }
-    }
-
-    private void PrevPage()
-    {
-        grid.GoToPrevPage();
-    }
-    private void NextPage()
-    {
-        grid.GoToNextPage();
-    }
 }
 

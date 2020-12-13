@@ -109,14 +109,12 @@ using Test.Configuration;
 #line hidden
 #nullable disable
             , 3, (__builder2) => {
-                __builder2.AddMarkupContent(4, "\r\n        ");
-                __builder2.AddMarkupContent(5, "<h2> Customers Header</h2>\r\n    ");
+                __builder2.AddMarkupContent(4, "<h2> Customers Header</h2>");
             }
-            , 6, (customer) => (__builder2) => {
-                __builder2.AddMarkupContent(7, "\r\n        ");
-                __builder2.OpenElement(8, "div");
-                __builder2.OpenElement(9, "b");
-                __builder2.AddContent(10, 
+            , 5, (customer) => (__builder2) => {
+                __builder2.OpenElement(6, "div");
+                __builder2.OpenElement(7, "b");
+                __builder2.AddContent(8, 
 #nullable restore
 #line 10 "C:\Users\gareg\source\repos\BlazorTest\Test\Pages\RenderFragment.razor"
                  customer.Id
@@ -127,10 +125,10 @@ using Test.Configuration;
                 );
                 __builder2.CloseElement();
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(11, "\r\n        ");
-                __builder2.OpenElement(12, "button");
-                __builder2.AddAttribute(13, "class", "btn");
-                __builder2.AddAttribute(14, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+                __builder2.AddMarkupContent(9, "\r\n        ");
+                __builder2.OpenElement(10, "button");
+                __builder2.AddAttribute(11, "class", "btn");
+                __builder2.AddAttribute(12, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 11 "C:\Users\gareg\source\repos\BlazorTest\Test\Pages\RenderFragment.razor"
                                         () =>
@@ -142,12 +140,12 @@ using Test.Configuration;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddContent(15, "Edit");
+                __builder2.AddContent(13, "Edit");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(16, "\r\n        ");
-                __builder2.OpenElement(17, "div");
-                __builder2.AddAttribute(18, "class", "ml-5");
-                __builder2.AddContent(19, 
+                __builder2.AddMarkupContent(14, "\r\n        ");
+                __builder2.OpenElement(15, "div");
+                __builder2.AddAttribute(16, "class", "ml-5");
+                __builder2.AddContent(17, 
 #nullable restore
 #line 15 "C:\Users\gareg\source\repos\BlazorTest\Test\Pages\RenderFragment.razor"
                            customer.Name
@@ -157,10 +155,10 @@ using Test.Configuration;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(20, "\r\n        ");
-                __builder2.OpenElement(21, "div");
-                __builder2.AddAttribute(22, "class", "ml-5");
-                __builder2.AddContent(23, 
+                __builder2.AddMarkupContent(18, "\r\n        ");
+                __builder2.OpenElement(19, "div");
+                __builder2.AddAttribute(20, "class", "ml-5");
+                __builder2.AddContent(21, 
 #nullable restore
 #line 16 "C:\Users\gareg\source\repos\BlazorTest\Test\Pages\RenderFragment.razor"
                            customer.SureName
@@ -170,10 +168,10 @@ using Test.Configuration;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(24, "\r\n        ");
-                __builder2.OpenElement(25, "div");
-                __builder2.AddAttribute(26, "class", "ml-5");
-                __builder2.AddContent(27, 
+                __builder2.AddMarkupContent(22, "\r\n        ");
+                __builder2.OpenElement(23, "div");
+                __builder2.AddAttribute(24, "class", "ml-5");
+                __builder2.AddContent(25, 
 #nullable restore
 #line 17 "C:\Users\gareg\source\repos\BlazorTest\Test\Pages\RenderFragment.razor"
                            customer.Age
@@ -183,20 +181,17 @@ using Test.Configuration;
 #nullable disable
                 );
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(28, "\r\n        <br>\r\n    ");
+                __builder2.AddMarkupContent(26, "\r\n        <br>");
             }
-            , 29, (__builder2) => {
-                __builder2.AddMarkupContent(30, "\r\n        ");
-                __builder2.AddMarkupContent(31, "<h2> Customers Footer</h2> \r\n    ");
+            , 27, (__builder2) => {
+                __builder2.AddMarkupContent(28, "<h2> Customers Footer</h2>");
             }
-            , 32, (context) => (__builder2) => {
-                __builder2.AddMarkupContent(33, "\r\n        ");
-                __builder2.OpenElement(34, "div");
-                __builder2.AddMarkupContent(35, "\r\n            ");
-                __builder2.AddMarkupContent(36, "<text> Customer Name:</text>");
-                __builder2.OpenElement(37, "input");
-                __builder2.AddAttribute(38, "class", "form-control");
-                __builder2.AddAttribute(39, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+            , 29, (context) => (__builder2) => {
+                __builder2.OpenElement(30, "div");
+                __builder2.AddMarkupContent(31, "<text> Customer Name:</text>");
+                __builder2.OpenElement(32, "input");
+                __builder2.AddAttribute(33, "class", "form-control");
+                __builder2.AddAttribute(34, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 25 "C:\Users\gareg\source\repos\BlazorTest\Test\Pages\RenderFragment.razor"
                                                                                  currentCustomer.Id
@@ -205,18 +200,16 @@ using Test.Configuration;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(40, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => currentCustomer.Id = __value, currentCustomer.Id));
+                __builder2.AddAttribute(35, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => currentCustomer.Id = __value, currentCustomer.Id));
                 __builder2.SetUpdatesAttributeName("value");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(41, "\r\n        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(42, "\r\n        ");
-                __builder2.OpenElement(43, "div");
-                __builder2.AddMarkupContent(44, "\r\n            ");
-                __builder2.AddMarkupContent(45, "<text> Customer Name:</text>");
-                __builder2.OpenElement(46, "input");
-                __builder2.AddAttribute(47, "class", "form-control");
-                __builder2.AddAttribute(48, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+                __builder2.AddMarkupContent(36, "\r\n        ");
+                __builder2.OpenElement(37, "div");
+                __builder2.AddMarkupContent(38, "<text> Customer Name:</text>");
+                __builder2.OpenElement(39, "input");
+                __builder2.AddAttribute(40, "class", "form-control");
+                __builder2.AddAttribute(41, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 28 "C:\Users\gareg\source\repos\BlazorTest\Test\Pages\RenderFragment.razor"
                                                                                  currentCustomer.Name
@@ -225,18 +218,16 @@ using Test.Configuration;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(49, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => currentCustomer.Name = __value, currentCustomer.Name));
+                __builder2.AddAttribute(42, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => currentCustomer.Name = __value, currentCustomer.Name));
                 __builder2.SetUpdatesAttributeName("value");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(50, "\r\n        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(51, "\r\n        ");
-                __builder2.OpenElement(52, "div");
-                __builder2.AddMarkupContent(53, "\r\n            ");
-                __builder2.AddMarkupContent(54, "<text> Customer SureName:</text>");
-                __builder2.OpenElement(55, "input");
-                __builder2.AddAttribute(56, "class", "form-control");
-                __builder2.AddAttribute(57, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+                __builder2.AddMarkupContent(43, "\r\n        ");
+                __builder2.OpenElement(44, "div");
+                __builder2.AddMarkupContent(45, "<text> Customer SureName:</text>");
+                __builder2.OpenElement(46, "input");
+                __builder2.AddAttribute(47, "class", "form-control");
+                __builder2.AddAttribute(48, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 31 "C:\Users\gareg\source\repos\BlazorTest\Test\Pages\RenderFragment.razor"
                                                                                      currentCustomer.SureName
@@ -245,18 +236,16 @@ using Test.Configuration;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(58, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => currentCustomer.SureName = __value, currentCustomer.SureName));
+                __builder2.AddAttribute(49, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => currentCustomer.SureName = __value, currentCustomer.SureName));
                 __builder2.SetUpdatesAttributeName("value");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(59, "\r\n        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(60, "\r\n        ");
-                __builder2.OpenElement(61, "div");
-                __builder2.AddMarkupContent(62, "\r\n            ");
-                __builder2.AddMarkupContent(63, "<text> Customer Age:</text>");
-                __builder2.OpenElement(64, "input");
-                __builder2.AddAttribute(65, "class", "form-control");
-                __builder2.AddAttribute(66, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+                __builder2.AddMarkupContent(50, "\r\n        ");
+                __builder2.OpenElement(51, "div");
+                __builder2.AddMarkupContent(52, "<text> Customer Age:</text>");
+                __builder2.OpenElement(53, "input");
+                __builder2.AddAttribute(54, "class", "form-control");
+                __builder2.AddAttribute(55, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 34 "C:\Users\gareg\source\repos\BlazorTest\Test\Pages\RenderFragment.razor"
                                                                                 currentCustomer.Age
@@ -265,14 +254,12 @@ using Test.Configuration;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(67, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => currentCustomer.Age = __value, currentCustomer.Age));
+                __builder2.AddAttribute(56, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => currentCustomer.Age = __value, currentCustomer.Age));
                 __builder2.SetUpdatesAttributeName("value");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(68, "\r\n        ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(69, "\r\n\r\n    ");
             }
-            , 70, (__value) => {
+            , 57, (__value) => {
 #nullable restore
 #line 5 "C:\Users\gareg\source\repos\BlazorTest\Test\Pages\RenderFragment.razor"
                          repeater = __value;

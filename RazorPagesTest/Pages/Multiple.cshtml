@@ -1,0 +1,66 @@
+﻿@page "/Multiple"
+@model RazorPagesTest.Pages.MultipleModel
+@{
+    ViewData["Title"] = "Multiple Select";
+}
+
+
+
+<form method="post" enctype="multipart/form-data">
+    <div class="card card-input">
+        <div class="card-body p-0 d-flex align-items-center">
+            <i class="cil-sync bg-primary p-4 px-5 font-2xl mr-3 text-white"></i>
+            <div>
+                <div class="text-value-sm text-info">@ViewData["Title"]</div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body row">
+            <div class="m-3 p-3 w-100">
+                <div style="max-width:600px">
+                    <div class="row">
+                        <div class="col-12 mt-2">
+                            <label class="text-info" asp-for="SelectedCountryValues">Ընտրեք երկիրը</label>
+                            <select class="mul-select" multiple="true" asp-for="SelectedCountryValues">
+                                    <option value="1">Հայաստան</option>
+                                    <option value="2">ԱՄՆ</option>
+                                    <option value="3">Ռուսաստան</option>
+                                    <option value="4">Կորեա</option>
+                                    <option value="5">Չինաստան</option>
+                                    <option value="6">Անգլիա</option>
+                                    <option value="7">Էստոնիա</option>
+                                </select>
+                        </div>
+                    </div>
+                    <hr />
+                 
+                </div>
+
+                <div style="height:20px"></div>
+                <div class="row border-top margin-top-20" style="padding-top:20px">
+                    <div class="col-12">
+                        <button class="btn btn-primary text-white"><i class="cil-sync"></i> Ստեղծել</button>
+                        <a class="btn btn-secondary" asp-page="/Candidates/Index"><i class="cil-x-circle"></i> Չեղարկել</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<script>
+    $(document).ready(function () {
+        $(".mul-select").select2({
+            placeholder: " -- ընտրել --", //placeholder
+            tags: true,
+            tokenSeparators: ['/', ',', ';', " "]
+        });
+    });
+
+        $(".mul-select").on("change", function () {
+            var orgId = $(this).val();
+            $("#SelectedCountryValues").val(orgId);
+        });
+</script>
