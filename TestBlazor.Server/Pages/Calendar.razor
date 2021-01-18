@@ -1,0 +1,46 @@
+﻿@page "/calendar"
+
+
+<h3>Calendar</h3>
+
+@if (Show)
+{
+    <button class="btn btn-success">@SelectedMonth</button>
+}
+else
+{
+    <select @onchange="LoadMonth">
+        @foreach (var month in Months)
+        {
+            <option>@month</option>
+        }
+    </select>
+}
+
+
+
+@code {
+    public List<string> Months { get; set; }
+
+    public bool Show { get; set; }
+    public string SelectedMonth { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Show = false;
+        //Months = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.MonthGenitiveNames.ToList();
+        System.Globalization.CultureInfo currentCulture = new System.Globalization.CultureInfo("hy-AM");
+        Months = currentCulture.DateTimeFormat.MonthNames.ToList();
+    }
+
+    private void LoadMonth(ChangeEventArgs e)
+    {
+        if (e != null)
+        {
+            SelectedMonth = e.Value.ToString();
+            Show = true;
+        }
+
+    }
+
+}

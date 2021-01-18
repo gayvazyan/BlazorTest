@@ -1,0 +1,32 @@
+﻿@page "/zoom"
+@inject IJSRuntime jSRuntime
+
+
+<h1 >Image Zoom</h1>
+
+<p >Mouse over the image:</p>
+
+<div  class="img-zoom-container">
+    <img id=@imgID src="/image/arcakh.jpg" width="500" height="400">
+    <br />
+    <br />
+    <div id=@resultID class="img-zoom-result"></div>
+</div>
+
+
+@code {
+
+
+    private string imgID= "myimage";
+    private string resultID= "myresult";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await jSRuntime.InvokeAsync<string>("imageZoom", imgID, resultID);
+        }
+
+    }
+
+}

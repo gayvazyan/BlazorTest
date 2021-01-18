@@ -1,0 +1,17 @@
+﻿@page "/modal"
+
+
+
+<button class="btn btn-info" @onclick="Show" >Show Modal</button>
+
+<ModalComponent @ref="modal"
+              ></ModalComponent>
+
+@code {
+
+    private ModalComponent modal;
+    public void Show()
+    {
+        modal.ShowModal();
+    }
+}

@@ -1,0 +1,24 @@
+﻿@page "/magnifier"
+@inject IJSRuntime jSRuntime
+
+
+    <div class="img-magnifier-container">
+        <img id=@imgID src="/image/arcakh.jpg" width="500" height="400" >
+    </div>
+
+@code {
+
+    private string imgID = "myimage";
+    private int zoom = 5;
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await jSRuntime.InvokeAsync<string>("magnify", imgID,zoom);
+        }
+
+    }
+
+}

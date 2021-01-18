@@ -1,0 +1,42 @@
+﻿@page "/"
+
+
+@using Blazor.Extensions;
+@using Blazor.Extensions.Canvas;
+@using Blazor.Extensions.Canvas.Canvas2D;
+
+<p style="color:@color">  Պատկերի հիմնական գույնը սև է։ </p>
+
+<h5>Մուտքագրեք գույնի անգլերեն անունը</h5>
+<input type="text" @bind-value="@color" @bind-value:event="oninput" />
+
+<BECanvas Width="100" Height="200" @ref="_canvasReference"></BECanvas>
+
+
+
+
+
+
+
+@code {
+
+    public string color { get; set; } = "";
+
+    private Canvas2DContext _context;
+
+    protected BECanvasComponent _canvasReference;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        this._context = await this._canvasReference.CreateCanvas2DAsync();
+        await this._context.SetFillStyleAsync(color);
+
+        await this._context.FillRectAsync(10, 100, 100, 100);
+
+        //await this._context.SetFontAsync("38px Calibri");
+        //await this._context.StrokeTextAsync("Hello Blazor!!!", 5, 100);
+    }
+
+
+
+}
